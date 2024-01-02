@@ -43,6 +43,9 @@ jobs:
           # LoopKit: Filename: customization details
           #curl https://github.com/username/LoopKit/commit/f307d0d31b68f0951017a0b73b6b4c5224a093dc.patch | git apply -v --directory=LoopKit
 
+          # Module: File: code customization description
+          curl https://github.com/kskandis/LoopKit/commit/9b13cfa7b86a545717bc49bb19cf6c04c8f53faf.patch | git apply -v --directory=LoopKit
+
           # Submodule xxxxx patches: Follow prototype above
       
       # Patch Fastlane Match to not print tables

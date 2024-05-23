@@ -238,8 +238,9 @@ jobs:
           # General template for customizing submodule LoopKit 
           # Copy url from a GitHub commit or pull request and insert below, and remove the "#" sign from the beginning of the line to activate:
           #curl url_to_github_commit.patch | git apply --directory=LoopKit -v --whitespace=fix
-          curl https://github.com/kskandis/LoopKit/commit/a6af49cf2c4436f1251ff6d565e9ca909a1f79a3.patch | git apply -v --directory=LoopKit
+          #ExponentialInsulinModel child dia, Guardrails 86 -> 60
           curl https://github.com/kskandis/LoopKit/commit/5fd40c4053684ab24affc1c625ea2a3727ad9a6a.patch | git apply -v --directory=LoopKit
+          curl https://github.com/kskandis/LoopKit/commit/9cade3132a29bd577bb39c45c977e2c90be4539a.patch | git apply -v --directory=LoopKit
           
           # Submodule xxxxx patches:
 

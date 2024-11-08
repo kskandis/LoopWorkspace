@@ -1,0 +1,23 @@
+From 5fd40c4053684ab24affc1c625ea2a3727ad9a6a Mon Sep 17 00:00:00 2001
+From: kskandis <kskandis@gmail.com>
+Date: Thu, 23 May 2024 13:08:44 -0400
+Subject: [PATCH] Update ExponentialInsulinModelPreset.swift
+
+Reduce .rapidActingChile actionDuration to 240 minutes
+---
+ LoopKit/Insulin/ExponentialInsulinModelPreset.swift | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/LoopKit/LoopKit/Insulin/ExponentialInsulinModelPreset.swift b/LoopKit/LoopKit/Insulin/ExponentialInsulinModelPreset.swift
+index 7ba9842cf..c3762c130 100644
+--- a/LoopKit/LoopKit/Insulin/ExponentialInsulinModelPreset.swift
++++ b/LoopKit/LoopKit/Insulin/ExponentialInsulinModelPreset.swift
+@@ -23,7 +23,7 @@ extension ExponentialInsulinModelPreset {
+         case .rapidActingAdult:
+             return .minutes(360)
+         case .rapidActingChild:
+-            return .minutes(360)
++            return .minutes(240)
+         case .fiasp:
+             return .minutes(360)
+         case .lyumjev:
